@@ -1,5 +1,4 @@
 .hero {
-    color: #FFFFFF;
     background-color: #2E2F42;
     padding: 188px 0;
 
@@ -22,10 +21,12 @@
     font-weight: 500;
     line-height: 1.5;
     border-radius: 4px;
+    /*  border: none; */
     width: 169px;
     cursor: pointer;
     padding: 16px 32px;
     display: block;
+
 }
 
 .hero-button:hover,

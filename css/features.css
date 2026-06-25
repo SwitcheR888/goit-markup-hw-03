@@ -1,0 +1,29 @@
+.features h2 {
+    margin-bottom: 24px;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features-list {
+    ...
+}
+
+.features-item {
+    margin-bottom: 24px;
+}
+
+.features-item:last-child {
+    margin-bottom: 0;
+}
+
+.features h3 {
+    margin-bottom: 24px;
+}
+
+.features {
+    padding: 100px;
+}
