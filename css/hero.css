@@ -9,6 +9,8 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    width: 496px;
+    margin: 0 auto;
 }
 
 .hero-button {
@@ -19,6 +21,8 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
 .hero-button:hover,
