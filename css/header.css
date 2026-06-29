@@ -1,6 +1,10 @@
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
 .header .container {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -11,6 +15,7 @@
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-part {
@@ -21,6 +26,7 @@
 
 .nav-list {
     display: flex;
+    gap: 40px;
 }
 
 .nav-item {}
@@ -31,9 +37,8 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    display: block;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -43,11 +48,12 @@
 
 .address {
     font-style: normal;
-
+    margin-left: auto;
 }
 
 .address-list {
     display: flex;
+    gap: 40px;
 }
 
 .address-item {}
