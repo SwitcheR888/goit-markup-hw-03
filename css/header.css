@@ -1,5 +1,6 @@
 .header .container {
-    /* */
+    display: flex;
+    justify-content: flex-start;
 }
 
 .logo {
@@ -16,13 +17,13 @@
     color: #2e2f42;
 }
 
-.nav {
-    /* */
-}
+.nav {}
 
 .nav-list {
-    /* */
+    display: flex;
 }
+
+.nav-item {}
 
 .nav-link {
     color: #2E2F42;
@@ -31,6 +32,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
+
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -45,8 +47,10 @@
 }
 
 .address-list {
-    /* */
+    display: flex;
 }
+
+.address-item {}
 
 .contacts-link {
     color: #434455;
